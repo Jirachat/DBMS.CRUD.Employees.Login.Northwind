@@ -36,20 +36,22 @@
             button2 = new Button();
             btnLogout = new Button();
             btnLogin = new Button();
+            btnOrders = new Button();
             groupBox1.SuspendLayout();
             SuspendLayout();
             // 
             // groupBox1
             // 
             groupBox1.BackColor = SystemColors.ActiveCaption;
+            groupBox1.Controls.Add(btnOrders);
             groupBox1.Controls.Add(label1);
             groupBox1.Controls.Add(btnEmployee);
             groupBox1.Controls.Add(button4);
             groupBox1.Controls.Add(button3);
             groupBox1.Controls.Add(button2);
-            groupBox1.Location = new Point(113, 65);
+            groupBox1.Location = new Point(113, 26);
             groupBox1.Name = "groupBox1";
-            groupBox1.Size = new Size(282, 358);
+            groupBox1.Size = new Size(282, 412);
             groupBox1.TabIndex = 10;
             groupBox1.TabStop = false;
             groupBox1.Visible = false;
@@ -121,6 +123,16 @@
             btnLogin.UseVisualStyleBackColor = true;
             btnLogin.Click += btnLogin_Click;
             // 
+            // btnOrders
+            // 
+            btnOrders.Location = new Point(13, 329);
+            btnOrders.Name = "btnOrders";
+            btnOrders.Size = new Size(187, 66);
+            btnOrders.TabIndex = 9;
+            btnOrders.Text = "Orders";
+            btnOrders.UseVisualStyleBackColor = true;
+            btnOrders.Click += btnOrders_Click;
+            // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
@@ -147,5 +159,6 @@
         private Button button2;
         private Button btnLogout;
         private Button btnLogin;
+        private Button btnOrders;
     }
 }

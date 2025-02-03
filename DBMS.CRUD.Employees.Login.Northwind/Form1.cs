@@ -43,5 +43,11 @@
             Frmemployee em = new Frmemployee();
             em.ShowDialog();
         }
+
+        private void btnOrders_Click(object sender, EventArgs e)
+        {
+            frmPos pos = new frmPos();
+            pos.ShowDialog();
+        }
     }
 }

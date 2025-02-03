@@ -70,8 +70,7 @@ namespace DBMS.CRUD.Employees.Login.Northwind
 
         private void btnChange_Click(object sender, EventArgs e)
         {
-            frmChangePassword cp = new frmChangePassword();
-            cp.ShowDialog();
+            
         }
     }
 }
